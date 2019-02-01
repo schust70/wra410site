@@ -5,4 +5,5 @@
 * 1px solid black collapsed border around the table on assignments.html.
 * Made sure the Student Group page was included in the navigation on every page.
 * Changed the link colors from red to Spartan green.
+* Created a horizontal nav banner above the h1 tag on schedule.html.
 
