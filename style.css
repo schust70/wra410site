@@ -1,11 +1,20 @@
+a, h1, h2, h3{
+  font-family: 'proxima-nova', sans-serif;
+}
+
+p {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
 body {
     background-color: #EEE;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    font-family: 'verdana', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #B23333;
+  color: #18453B;
 }
 
 h1, h2, h3  {
@@ -66,7 +75,7 @@ h1, h2, h3  {
 #footer {
   clear: both;
   padding: 10px;
-  background-color: #97a2a2;
+  background-color: #696969;
   color: white;
   text-align: right;
 }
@@ -74,9 +83,77 @@ h1, h2, h3  {
   font-weight: bold;
   color: black;
   text-align: right;
+  border-bottom: solid;
+  border-bottom-color: #18453B;
 }
 .schedule-resources {
   font-weight: lighter;
   color: black;
   text-align: left;
+  border-bottom: solid;
+  border-bottom-color: #18453B;
+}
+
+.weekly-slides {
+  border-bottom: solid;
+  border-bottom-color: #18453B;
+}
+
+th, td {
+  padding: 12px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+nav {
+    background-color: #18453B;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 12px;
+}
+
+/* Style the links inside the navigation bar */
+nav a.links {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 12px 24px 12px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.schedule {
+  padding-top: 24px;
+}
+
+.spartan {
+  max-width: 56px;
+  float: left;
+}
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 5px;
+
+}
+
+.grid-item {
+  background-color: #18453B;
+  padding: 15px;
+  text-align: center;
+  clear: both;
+  margin: 20px;
+  border-radius: 0px;
+  color: black;
+  font-size: 15px;
+}
+
+.grid-item a {
+  color: white;
 }
