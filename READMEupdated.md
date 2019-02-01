@@ -6,4 +6,8 @@
 * Made sure the Student Group page was included in the navigation on every page.
 * Changed the link colors from red to Spartan green.
 * Created a horizontal nav banner above the h1 tag on schedule.html.
+* Changed the color of the footer div to a slightly darker gray.
+* Included a Spartan head image in the header on every page except for schedule.html.
+* Added a bottom-border to the div's on schedule.html to improve the readability.
+* Created a grid for groups.html.
 
